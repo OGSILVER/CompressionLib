@@ -1,0 +1,5 @@
+/home/ogsilver/Desktop/CompressionLib/src/test/java/com/compressionlib/io/FileFormatTest.java
+/home/ogsilver/Desktop/CompressionLib/src/test/java/com/compressionlib/lossless/huffman/HuffmanCodecTest.java
+/home/ogsilver/Desktop/CompressionLib/src/test/java/com/compressionlib/lossless/lzw/LZWCodecTest.java
+/home/ogsilver/Desktop/CompressionLib/src/test/java/com/compressionlib/lossless/lz77/LZ77CodecTest.java
+/home/ogsilver/Desktop/CompressionLib/src/test/java/com/compressionlib/io/BitInputOutputStreamTest.java

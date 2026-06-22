@@ -1,0 +1,5 @@
+com/compressionlib/lossless/lzw/LZWCodecTest.class
+com/compressionlib/io/FileFormatTest.class
+com/compressionlib/io/BitInputOutputStreamTest.class
+com/compressionlib/lossless/huffman/HuffmanCodecTest.class
+com/compressionlib/lossless/lz77/LZ77CodecTest.class
