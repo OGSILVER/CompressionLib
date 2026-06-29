@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.174" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.027" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/ogsilver/Desktop/CompressionLib/target/surefire/surefirebooter12096679740744824757.jar /home/ogsilver/Desktop/CompressionLib/target/surefire 2026-06-22T02-34-59_384-jvmRun1 surefire2861718632309514996tmp surefire_03924401508418203834tmp"/>
+    <property name="sun.java.command" value="/home/ogsilver/Desktop/CompressionLib/target/surefire/surefirebooter6711006131545978381.jar /home/ogsilver/Desktop/CompressionLib/target/surefire 2026-06-28T19-48-25_228-jvmRun1 surefire3678078785383047126tmp surefire_05684740284387547218tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/ogsilver/Desktop/CompressionLib/target/test-classes:/home/ogsilver/Desktop/CompressionLib/target/classes:/home/ogsilver/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/ogsilver/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ogsilver/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/ogsilver/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ogsilver/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/ogsilver/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/ogsilver/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/ogsilver/Desktop/CompressionLib/target/surefire/surefirebooter12096679740744824757.jar"/>
+    <property name="surefire.real.class.path" value="/home/ogsilver/Desktop/CompressionLib/target/surefire/surefirebooter6711006131545978381.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+10-Ubuntu-125.04"/>
     <property name="user.name" value="ogsilver"/>
@@ -55,20 +55,20 @@
   </properties>
   <testcase name="testSimpleText" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
   <testcase name="testSpecialCharacters" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
-  <testcase name="testVariousSizes{int}[1]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
+  <testcase name="testVariousSizes{int}[1]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
   <testcase name="testVariousSizes{int}[2]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
   <testcase name="testVariousSizes{int}[3]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
-  <testcase name="testVariousSizes{int}[4]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.007"/>
-  <testcase name="testVariousSizes{int}[5]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.015"/>
-  <testcase name="testEmptyData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
-  <testcase name="testRandomData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.015"/>
-  <testcase name="testRepeatedBytes" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
-  <testcase name="testSingleByte" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
-  <testcase name="testHighlyCompressibleData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.004"/>
-  <testcase name="testCompressionRatio" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
-  <testcase name="testLargeData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.088"/>
-  <testcase name="testNullInput" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
-  <testcase name="testAlgorithmMetadata" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
+  <testcase name="testVariousSizes{int}[4]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testVariousSizes{int}[5]" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
+  <testcase name="testEmptyData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testRandomData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.002"/>
+  <testcase name="testRepeatedBytes" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testSingleByte" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
+  <testcase name="testHighlyCompressibleData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testCompressionRatio" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testLargeData" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.016"/>
+  <testcase name="testNullInput" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
+  <testcase name="testAlgorithmMetadata" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0"/>
   <testcase name="testTwoDistinctBytes" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
-  <testcase name="testAllByteValues" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.005"/>
+  <testcase name="testAllByteValues" classname="com.compressionlib.lossless.huffman.HuffmanCodecTest" time="0.001"/>
 </testsuite>
